@@ -8,6 +8,4 @@ Authors:
 * Khanh Do
 * Alyssa Ryan
 
-This code may be found at <  public DblCtr(Counter counter) {
-    this.base = counter;
-  } // DblCtr(Counter)>.
+This code may be found at <https://github.com/khanhdo05/lab-inheritance-maven>.
