@@ -20,7 +20,7 @@ public class CounterTests {
    */
   @Test
   public void test1() throws Exception {
-    Counter alpha = new Tally();
+    Counter alpha = new NamedCounter("alfa", 0);
     Counter beta = new BasicCounter(123);
     DecrementableCounter gamma = new DecrementableCounter(-5);
     assertEquals(0, alpha.get(), "original alpha");
