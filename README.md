@@ -8,4 +8,6 @@ Authors:
 * Khanh Do
 * Alyssa Ryan
 
-This code may be found at <FILL IN>.
+This code may be found at <  public DblCtr(Counter counter) {
+    this.base = counter;
+  } // DblCtr(Counter)>.

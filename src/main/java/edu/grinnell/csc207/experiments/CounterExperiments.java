@@ -22,7 +22,7 @@ public class CounterExperiments {
 
     // Set up some counters
     NamedCounter alpha = new NamedCounter("alfa", 0);
-    Counter beta = new DoubleCounter(123);
+    Counter beta = new DblCtr(new DblCtr(new DecrementableCounter(0)));
     BasicCounter gamma = new BoundedCounter(-5,3);
 
     // Print original values
