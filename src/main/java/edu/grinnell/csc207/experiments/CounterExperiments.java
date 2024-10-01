@@ -23,7 +23,7 @@ public class CounterExperiments {
     // Set up some counters
     NamedCounter alpha = new NamedCounter("alfa", 0);
     Counter beta = new DoubleCounter(123);
-    DecrementableCounter gamma = new DecrementableCounter(-5);
+    BasicCounter gamma = new BoundedCounter(-5,3);
 
     // Print original values
     pen.println("Original alpha = " + alpha);
@@ -40,7 +40,7 @@ public class CounterExperiments {
 
     gamma.reset();
     pen.println("After resetting gamma: " + gamma);
-    gamma.decrement();
+    gamma.increment();
     pen.println("After decrementing gamma: " + gamma);
     // And we're done
     pen.close();
