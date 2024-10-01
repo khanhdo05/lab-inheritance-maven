@@ -21,7 +21,7 @@ public class CounterExperiments {
     PrintWriter pen = new PrintWriter(System.out, true);
 
     // Set up some counters
-    Counter alpha = new BasicCounter(0);
+    NamedCounter alpha = new NamedCounter("alfa", 0);
     Counter beta = new BasicCounter(123);
     DecrementableCounter gamma = new DecrementableCounter(-5);
 
