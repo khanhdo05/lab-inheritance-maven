@@ -1,6 +1,5 @@
 package edu.grinnell.csc207.util;
 
-import edu.grinnell.csc207.util.Counter;
 
 public class BasicCounter implements Counter {
   int count;
